@@ -1,0 +1,11 @@
+¿Por qué funciona?
+el codigo funciona gracias a la recursividad constante que se le aplica a las variables antes y del despues de que se le aplique los calculos de de division 
+
+¿Cuál es el criterio que utiliza para definir que no tiene sentido continuar con la exploración de la solución porque no va a conducir a una solución?
+Cuando intenta formar un palito y la suma de las longitudes ya usadas junto con la longitud actual supera lo que necesitamos para un palito, el programa deja de buscar por esa ruta. Es como si dijera: "Esto no va a funcionar", y prueba otras opciones en su lugar.
+
+  ¿Cuál es la decisión que se revisa cada vez que se aplica backtracking?
+  la decision en este codigo es revisar si por lo metodos que se usan se va a llegar a una posible respuesta o no para saber si tine que retroceder y buscar otra solucion
+
+  ¿Cómo cambiaría el algoritmo si, en lugar de preguntar por la longitud más corta, se preguntara por la más larga? Justifique su respuesta.
+    Cambiaríamos la búsqueda de la longitud más corta a la más larga, comenzando desde la suma total de las longitudes y avanzando hacia abajo. Ajustaríamos la lógica para evitar exceder la longitud máxima deseada en cada paso.
