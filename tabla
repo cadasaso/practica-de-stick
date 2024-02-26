@@ -1,0 +1,11 @@
+
+
+| Nombre de la variable | Tipo de dato | Uso | Visibilidad | Ciclo de vida |
+|-----------------------|---------------|-----|-------------|---------------|
+| `n`                   | `int`         | Almacena la cantidad de palitos después de cortar. | `static` (compartida por todas las instancias de la clase) | Inicializada en la función `main()`, destruida al finalizar el programa. |
+| `sum`                 | `int`         | Almacena la suma total de las longitudes de los palitos. | `static` (compartida por todas las instancias de la clase) | Inicializada en la función `main()`, destruida al finalizar el programa. |
+| `num`                 | `int`         | Almacena el número de grupos de palitos que se intentan formar. | `static` (compartida por todas las instancias de la clase) | Inicializada en la función `main()`, destruida al finalizar el programa. |
+| `l`                   | `int`         | Almacena la longitud actual que se está probando. | `static` (compartida por todas las instancias de la clase) | Inicializada en la función `main()`, destruida al finalizar el programa. |
+| `sticks`              | `int[]`       | Almacena las longitudes de los palitos de madera. | `static` (compartida por todas las instancias de la clase) | Inicializada en la función `main()`, destruida al finalizar el programa. |
+| `mark`                | `boolean[]`   | Utilizada para marcar los palitos que ya han sido usados en la combinación actual. | `static` (compartida por todas las instancias de la clase) | Inicializada en la función `main()`, destruida al finalizar el programa. |
+
