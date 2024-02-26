@@ -1,0 +1,12 @@
+    calculo
+        Parámetros: s (int), le (int), pos (int)
+        Retorno: boolean
+        Excepciones: Ninguna
+        Descripción: Esta función recursiva intenta formar grupos de palitos de madera con la longitud deseada. Toma tres parámetros: s, que representa la cantidad de palitos formados hasta el momento, le, que representa la longitud acumulada de los palitos actualmente seleccionados, y pos, que indica la posición del palito actual en el arreglo. Retorna true si es posible formar todos los grupos de palitos, false de lo contrario.
+
+    main
+        Parámetros: args (String[])
+        Retorno: void
+        Excepciones: Ninguna
+        Descripción: Esta es la función principal del programa. Lee la entrada del usuario para obtener la cantidad y longitudes de los palitos de madera. Luego, llama a la función calculo() para encontrar la longitud mínima requerida para formar todos los palitos y la imprime. Este proceso se repite hasta que el usuario elige salir del programa.
+
